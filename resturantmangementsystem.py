@@ -215,7 +215,6 @@ window.title("printed")
 
 appLabel=tk.Label(window,text="RESTURANT MANAGEMENT SYSTEM",width=90,bg="orange",fg="#ffff00")
 appLabel.config(font=("sylfaen",30))
-appLabel.grid(row=0,columnspan=5,padx=(30,30),pady=(30,0))
 
 tree=ttk.Treeview(window)
 tree["column"]=("one","two","three","four","five","six","seven","eight","nine","ten","eleven")
